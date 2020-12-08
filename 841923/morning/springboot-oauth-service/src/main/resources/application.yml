@@ -1,0 +1,9 @@
+server:
+  port: 8086
+security:
+  oauth2:
+    client:
+      client-id: my-client
+      client-secret: hima
+      access-token-uri: http://localhost:8081/oauth/token
+      
