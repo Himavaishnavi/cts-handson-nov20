@@ -28,6 +28,7 @@ public class SpringbootOauthServiceApplication {
 			userinfor.put("user", oauth2.getUserAuthentication().getPrincipal());
 			userinfor.put("authorities", AuthorityUtils.authorityListToSet(oauth2.getUserAuthentication().getAuthorities()));
 			return userinfor;
-	}
+		}
+	
 
 }
