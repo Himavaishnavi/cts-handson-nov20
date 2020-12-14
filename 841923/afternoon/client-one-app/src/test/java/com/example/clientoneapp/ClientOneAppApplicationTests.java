@@ -1,10 +1,10 @@
-package com.example.jparest;
+package com.example.clientoneapp;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class JpaRestApplicationTests {
+class ClientOneAppApplicationTests {
 
 	@Test
 	void contextLoads() {
